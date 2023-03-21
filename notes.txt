@@ -1,0 +1,23 @@
+1) INSTALL
+    Create a empty folder, open it in VSCODE and run this command. This will create a template of react folder
+        $ npm create vite@latest ./ -- --template react
+
+    Install Tailwind CSS 
+        $ npm i -D  tailwindcss
+        $ npx tailwindcss init
+        $ npm i --legacy-peer-deps -D postcss autoprefixer // bcz in vite without these, tailwind wont work
+        $ npx tailwindcss init -p //to create a tailwind.config.cjs, search google, tailwind wont work with vite for more details 
+    
+    Install all other required libraries
+    $ npm i --legacy-peer-deps three @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom 
+
+2)  Copy these github gist and paste in our app
+    https://gist.github.com/adrianhajdin/b1d33c262941a7e21aad833a1cfc84b1
+
+    src > index.css, styles.js
+    src > utils > motion.js
+    src > constants > constants.js
+
+3)  Run the app 
+    $ npm run dev
+
